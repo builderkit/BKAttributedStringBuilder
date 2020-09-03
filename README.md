@@ -1,2 +1,3 @@
 # BKAttributedStringBuilder
-@_functionBuilder for NSAttributedString, using NSAttributedString as SwiftUI style.
+
+A description of this package.
