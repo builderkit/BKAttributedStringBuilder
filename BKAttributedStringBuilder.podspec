@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint XLAttributedString.podspec' to ensure this is a
+#  Be sure to run `pod spec lint BKAttributedStringBuilder.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "BuilderKit"
+  spec.name         = "BKAttributedStringBuilder"
   spec.version      = "1.0.0"
   spec.summary      = "@_functionBuilder for NSAttributedString."
   spec.description  = <<-DESC
