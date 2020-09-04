@@ -19,6 +19,6 @@ let package = Package(
         // .package(url: /* package url */, from: "1.0.0"),
     ],
     targets: [
-        .target(name: "BKAttributedStringBuilder", dependencies: []),
+        .target(name: "BKAttributedStringBuilder", path: "Sources"),
     ]
 )

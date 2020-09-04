@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "BKAttributedStringBuilder"
-  spec.version      = "1.0.0"
+  spec.version      = "1.1.0"
   spec.summary      = "@_functionBuilder for NSAttributedString."
   spec.description  = <<-DESC
   @_functionBuilder for NSAttributedString, using NSAttributedString as SwiftUI style.
