@@ -12,9 +12,10 @@ import Foundation
 import UIKit
 public typealias BKFont = UIFont
 public typealias BKColor = UIColor
-#else
-public typealias BKFont = UIFont
-public typealias BKColor = UIColor
+#elseif canImport(AppKit)
+import AppKit
+public typealias BKFont = NSFont
+public typealias BKColor = NSColor
 #endif
 
 public protocol Attributed {

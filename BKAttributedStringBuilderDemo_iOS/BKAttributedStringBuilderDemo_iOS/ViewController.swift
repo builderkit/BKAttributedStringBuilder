@@ -25,14 +25,14 @@ class ViewController: UIViewController {
         label.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         label.numberOfLines = 0
         
-        let greeting = true
+        let greeting = false
         let phoneType = PhoneType.home
 
         label.attributedText = NSAttributedString {
             "Hello".foregroundColor(.red)
                 .backgroundColor(.yellow)
                 .font(.systemFont(ofSize: 20))
-            "\n"
+            LineBreak()
             if greeting {
                 "World".font(.systemFont(ofSize: 40))
                     .backgroundColor(.red)
@@ -50,7 +50,7 @@ class ViewController: UIViewController {
                     return p
                 }
             }
-            "\n"
+            LineBreak()
 //            switch phoneType {
 //            case .home:
 //                "Home"
@@ -58,17 +58,18 @@ class ViewController: UIViewController {
 //                "Work"
 //            }
             NSAttributedString {
+                "BK".font(.italicSystemFont(ofSize: 20))
                 "AttributedString".foregroundColor(.green)
                 "Builder".foregroundColor(.brown)
-                "\n"
-                #imageLiteral(resourceName: "bell")
+                LineBreak()
+                #imageLiteral(resourceName: "bell").size(.init(width: 120, height: 120))
             }.underline(style: .double, color: .purple)
                 .paragraphStyle {
                     let p = NSMutableParagraphStyle()
                     p.alignment = .center
                     return p
                 }
-            "\n"
+            LineBreak()
             ForEach(["子", "丑", "寅", "卯"]) {
                 $0.paragraphStyle {
                     let p = NSMutableParagraphStyle()
@@ -76,10 +77,13 @@ class ViewController: UIViewController {
                     p.tailIndent = -15
                     return p
                 }
-                "\n"
+                LineBreak()
             }
-            ForEach(1 ..< 5) { "\($0)" }
-            "\n"
+            ForEach(1 ..< 5) {
+                "\($0)"
+                WhiteSpace(count: $0)
+            }
+            LineBreak()
             "https://www.apple.com"
                 .link(URL(string: "https://www.apple.com")!)
                 .shadow(color: #colorLiteral(red: 0.8078431487, green: 0.02745098062, blue: 0.3333333433, alpha: 1), blurRadius: 4, offset: .init(width: 0, height: 4))

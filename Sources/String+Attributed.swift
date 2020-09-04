@@ -49,6 +49,8 @@ extension String : Attributed {
 }
 
 public struct Empty : Attributed {
+    
+    public init() { }
 
     public var attributedString: NSAttributedString {
         return Text("").attributedString
@@ -65,6 +67,8 @@ public struct Empty : Attributed {
 
 public struct LineBreak : Attributed {
     
+    public init() { }
+    
     public var attributedString: NSAttributedString {
         return Text("\n").attributedString
     }
@@ -78,10 +82,17 @@ public struct LineBreak : Attributed {
     }
 }
 
-public struct BlankSpace : Attributed {
+public struct WhiteSpace : Attributed {
+    
+    private let count: Int
+    public init(count: Int = 1) {
+        self.count = count
+    }
     
     public var attributedString: NSAttributedString {
-        return Text(" ").attributedString
+        let whiteSpaces = Array(repeating: " ", count: count)
+        let string = whiteSpaces.joined()
+        return Text(string).attributedString
     }
     
     public func withAttribute(_ attrName: NSAttributedString.Key, value: Any) -> Attributed {
