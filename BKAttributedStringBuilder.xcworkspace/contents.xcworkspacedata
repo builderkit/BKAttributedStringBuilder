@@ -7,4 +7,7 @@
    <FileRef
       location = "group:BKAttributedStringBuilderDemo_iOS/BKAttributedStringBuilderDemo_iOS.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:BKAttributedStringBuilderDemo_macOS/BKAttributedStringBuilderDemo_macOS.xcodeproj">
+   </FileRef>
 </Workspace>

@@ -3,7 +3,7 @@
 //  BKAttributedStringBuilderDemo_iOS
 //
 //  Created by jinxiaolong on 2020/9/4.
-//  Copyright © 2020 swiftneko. All rights reserved.
+//  Copyright © 2020 BuilderKit. All rights reserved.
 //
 
 import UIKit
@@ -50,13 +50,6 @@ class ViewController: UIViewController {
                     return p
                 }
             }
-            LineBreak()
-//            switch phoneType {
-//            case .home:
-//                "Home"
-//            case .work:
-//                "Work"
-//            }
             NSAttributedString {
                 "BK".font(.italicSystemFont(ofSize: 20))
                 "AttributedString".foregroundColor(.green)

@@ -115,7 +115,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1170;
-				ORGANIZATIONNAME = builderkit;
+				ORGANIZATIONNAME = BuilderKit;
 				TargetAttributes = {
 					5B02A6642500C7EA00F2F687 = {
 						CreatedOnToolsVersion = 11.7;

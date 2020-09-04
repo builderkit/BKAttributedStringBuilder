@@ -3,7 +3,7 @@
 //  BKAttributedStringBuilder
 //
 //  Created by jinxiaolong on 2020/9/3.
-//  Copyright © 2020 builderkit. All rights reserved.
+//  Copyright © 2020 BuilderKit. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
