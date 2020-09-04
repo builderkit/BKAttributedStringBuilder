@@ -11,7 +11,6 @@
 		5B02A6D92501FBFE00F2F687 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B02A6D82501FBFE00F2F687 /* ViewController.swift */; };
 		5B02A6DB2501FBFF00F2F687 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B02A6DA2501FBFF00F2F687 /* Assets.xcassets */; };
 		5B02A6DE2501FBFF00F2F687 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B02A6DC2501FBFF00F2F687 /* Main.storyboard */; };
-		5B02A6E82501FC9700F2F687 /* BKAttributedStringBuilder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B02A6E72501FC9700F2F687 /* BKAttributedStringBuilder.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +21,6 @@
 		5B02A6DD2501FBFF00F2F687 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B02A6DF2501FBFF00F2F687 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B02A6E02501FBFF00F2F687 /* BKAttributedStringBuilderDemo_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BKAttributedStringBuilderDemo_macOS.entitlements; sourceTree = "<group>"; };
-		5B02A6E72501FC9700F2F687 /* BKAttributedStringBuilder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = BKAttributedStringBuilder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,7 +28,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B02A6E82501FC9700F2F687 /* BKAttributedStringBuilder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,7 +39,6 @@
 			children = (
 				5B02A6D52501FBFE00F2F687 /* BKAttributedStringBuilderDemo_macOS */,
 				5B02A6D42501FBFE00F2F687 /* Products */,
-				5B02A6E62501FC9700F2F687 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,14 +61,6 @@
 				5B02A6E02501FBFF00F2F687 /* BKAttributedStringBuilderDemo_macOS.entitlements */,
 			);
 			path = BKAttributedStringBuilderDemo_macOS;
-			sourceTree = "<group>";
-		};
-		5B02A6E62501FC9700F2F687 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5B02A6E72501FC9700F2F687 /* BKAttributedStringBuilder.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

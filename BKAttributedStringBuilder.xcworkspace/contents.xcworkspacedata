@@ -10,4 +10,10 @@
    <FileRef
       location = "group:BKAttributedStringBuilderDemo_macOS/BKAttributedStringBuilderDemo_macOS.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:BKAttributedStringBuilderDemo_tvOS/BKAttributedStringBuilderDemo_tvOS.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BKAttributedStringBuilderDemo_watchOS/BKAttributedStringBuilderDemo_watchOS.xcodeproj">
+   </FileRef>
 </Workspace>
